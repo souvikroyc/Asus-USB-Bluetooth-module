@@ -1,0 +1,154 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=Bluetooth
+ClassGuid={e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+Provider="Broadcom"
+DriverVer=02/17/2009, 6.2.0.7800
+CatalogFile=Bcbtums-vista32-brcm.CAT
+ 
+[ControlFlags]
+ExcludeFromSelect = "USB\VID_03F0&PID_171D"
+ExcludeFromSelect = "USB\VID_03F0&PID_D104"
+ExcludeFromSelect = "USB\VID_03F0&PID_D404"
+ExcludeFromSelect = "USB\Vid_0A5C&Pid_2101"
+ExcludeFromSelect = "USB\Vid_0A5C&Pid_2110"
+ExcludeFromSelect = "USB\Vid_413C&Pid_8126"
+ExcludeFromSelect = "USB\Vid_413C&Pid_8130"
+ExcludeFromSelect = "USB\Vid_413C&Pid_8174"
+ExcludeFromSelect = "USB\Vid_0A5C&Pid_2120"
+ExcludeFromSelect = "USB\Vid_0A5C&Pid_2121"
+ExcludeFromSelect = "USB\Vid_0A5C&Pid_2123"
+ExcludeFromSelect = "USB\Vid_047D&Pid_1154"
+ExcludeFromSelect = "USB\Vid_044E&Pid_3010"
+ExcludeFromSelect = "USB\Vid_0A5C&Pid_2112"
+ExcludeFromSelect = "USB\Vid_044e&Pid_3017"
+ExcludeFromSelect = "USB\Vid_0930&Pid_0200"
+ExcludeFromSelect = "USB\VID_413C&PID_8156"
+ExcludeFromSelect = "USB\VID_413C&PID_8152"
+ExcludeFromSelect = "USB\VID_413C&PID_8160"
+ExcludeFromSelect = "USB\VID_0A5C&PID_2148"
+ExcludeFromSelect = "USB\VID_0A5C&PID_2145"
+ExcludeFromSelect = "USB\VID_0A5C&PID_2150"
+ExcludeFromSelect = "USB\VID_0A5C&PID_2151"
+ExcludeFromSelect = "USB\VID_413C&PID_02B0"
+ExcludeFromSelect = "USB\VID_0A5C&PID_21B0"
+
+[Manufacturer]
+Broadcom=Broadcom
+[Broadcom]
+%BluetootUsb2045B1HpMdl.DeviceDesc%=BCBTUsbBlueflame, USB\VID_03F0&PID_171D                     ; HP Integrated Module with Bluetooth 2.0 Wireless Technology
+%BluetootUsb2045B1HpDgl.DeviceDesc%=BCBTUsbBlueflame, USB\VID_03F0&PID_D104                     ; HP Bluetooth Wireless Print and PC Adapter
+%BluetootUsb2045B3HpROMDgl.DeviceDesc%=BCBTUsbBlueflame, USB\VID_03F0&PID_D404                  ; HP Bluetooth Wireless Print and PC Adapter
+%BluetootUsb2045B1AcerIBMSamSung.DeviceDesc%=BCBTUsbDriverInstallXP, USB\Vid_0a5c&Pid_2101      ; Broadcom 2045 Bluetooth 2.0+EDR USB Device 
+%BluetootUsb2045B1BrcmIBM.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_0a5c&Pid_2110            ; ThinkPad Bluetooth with Enhanced Data Rate
+%BluetootUsb2045B1DellFangorn.DeviceDesc%=BCBTUsbDriverInstallXP, USB\Vid_413c&Pid_8126         ; Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology
+%BluetootUsb2045B1DellStardust.DeviceDesc%=BCBTUsbDriverInstallWiFi, USB\Vid_413c&Pid_8130      ; Dell Wireless 355C Bluetooth 2.0 + EDR Module
+%BluetootUsb2045B3BrcmUHEROM.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_0a5c&Pid_2120     	; Broadcom 2045 Bluetooth 2.0+EDR USB Dongle with First Connect 
+%BluetootUsb2045B3BrcmNonUHEROM.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_0a5c&Pid_2121  	; Broadcom 2045 Bluetooth 2.0+EDR USB Dongle 
+%BluetootUsb2045B3BrcmNonUHEROMChina.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_0a5c&Pid_2123 ; Broadcom 2045 Bluetooth 2.0 USB Dongle 
+%BluetootUsb2045B3ROMKensington.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_047D&Pid_1154      ; Kensington Bluetooth EDR Dongle
+%BluetootUsb2046A0Sony.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_044E&Pid_3010               ; ALPS-UGPZ9-BCM2046
+%BluetootUsb.2045B1TeacStardust.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_0A5C&Pid_2112      ; Teac BCM 2045 Bluetooth Device
+%BluetootUsb2046A0SonyNonUHE.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_044E&Pid_3017         ; ALPS-UGPZ9-BCM2046
+%BluetootUsb2046A0ToshibaNonUHE.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_0930&Pid_0200    	; TAIYO YUDEN Bluetooth Controller EYTFEBSAX-A
+%BluetootUsb2046B1DellLittelRock.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_413C&PID_8156     ; Dell Wireless 370 Bluetooth Mini-card
+%BluetootUsb2046B1DellHardRock.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_413C&PID_8152       ; Dell Wireless 410 Bluetooth Device
+%BluetootUsb2046B1DellLittleStone.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_413C&PID_8160    ; Dell Wireless 365 Bluetooth Module
+%BluetootUsb2046B1DellBlackStone.DeviceDesc% =BCBTUsbDriverInstallXP, USB\Vid_413C&PID_8174     ; Dell Wireless 367 Bluetooth Module
+%BluetootUsb2046B1ROMGeneric.DeviceDesc% =BCBTUsbDriverInstallXP, USB\VID_0A5C&PID_2148         ; Broadcom 2046 Bluetooth 2.1+EDR USB Dongle with First Connect
+%BluetootUsb2046B1Helike.DeviceDesc% =BCBTUsbDriverInstallXP, USB\VID_0A5C&PID_2145             ; ThinkPad Bluetooth 2.1 with Enhanced Data Rate
+%BluetootUsb2046B1LenovoChinaModule.DeviceDesc% =BCBTUsbDriverInstallXP, USB\VID_0A5C&PID_2150  ; BCM2046 Bluetooth Module
+%BluetootUsb2046B1GatewayModule.DeviceDesc% =BCBTUsbDriverInstallXP, USB\VID_0A5C&PID_2151      ; BCM2046 Bluetooth Module
+%BluetootUsb2046B1DellCompal.DeviceDesc% =BCBTUsbDriverInstallXP, USB\VID_413C&PID_02B0         ; BCM2046 Bluetooth Device
+%BluetootUsb2070B0K2HP.DeviceDesc% =BCBTUsbDriverInstallXP, USB\VID_0A5C&PID_21B0              ; HP Integrated Module with Bluetooth 2.1 + EDR Wireless Technology
+
+[BCBTUsbDriverInstallXP.NT]
+Include=Bth.inf
+Needs=BthUsb.NT
+
+[BCBTUsbDriverInstallXP.NT.HW]
+AddReg=BCBTUsbDriverInstallXP.NT.HW.AddReg
+Needs=BthUsb.NT.HW
+
+[BCBTUsbDriverInstallXP.NT.Services]
+AddReg=BCBTUsb.NT.Services.AddReg
+needs=BthUsb.NT.Services
+
+[BCBTUsbDriverInstallXP.NT.HW.AddReg]
+HKR,,%RemoteWakeEnabled%,0x00010001,1
+HKR,,%DeviceRemoteWakeSupported%,0x00010001,1
+
+[BCBTUsbBlueflame.NT]
+Include=Bth.inf
+Needs=BthUsb.NT
+
+[BCBTUsbBlueflame.NT.HW]
+AddReg=BCBTUsb.NT.HW.AddReg
+Needs=BthUsb.NT.HW
+
+[BCBTUsbBlueflame.NT.Services]
+AddReg=BCBTUsb.NT.Services.AddReg
+needs=BthUsb.NT.Services
+
+[BCBTUsb.NT.HW.AddReg]
+HKR,,%PageScanWindow%,0x00010001,24
+HKR,,%PageScanInterval%,0x00010001,2048
+HKR,,%RemoteWakeEnabled%,0x00010001,1
+HKR,,%DeviceRemoteWakeSupported%,0x00010001,1
+
+[BCBTUsb.NT.Services.AddReg]
+; HAS NOT WORKED IN TESTING YET BUT THAT'S WHAT WE SHOULD SET
+; HKR,"Bthport\Parameters","SystemRemoteWakeSupported",0x00010001,0x00000001
+
+[BCBTUsbDriverInstallWiFi.NT]
+Include=Bth.inf
+Needs=BthUsb.NT
+
+[BCBTUsbDriverInstallWiFi.NT.HW]
+Needs=BthUsb.NT.HW
+
+[BCBTUsbDriverInstallWiFi.NT.Services]
+AddReg=BCBTUsbDriverInstallWiFi.NT.Services.AddReg
+needs=BthUsb.NT.Services
+
+[BCBTUsbDriverInstallWiFi.NT.Services.AddReg]
+HKR,"BthServ\Parameters","ChannelAvoidanceRange",0x00010001,0x00000020
+
+; HAS NOT WORKED IN TESTING YET BUT THAT'S WHAT WE SHOULD SET
+; HKR,"Bthport\Parameters","SystemRemoteWakeSupported",0x00010001,0x00000001
+
+[Strings]
+Broadcom="Broadcom Corporation"
+BluetootUsb2045B1HpMdl.DeviceDesc=       		"HP Integrated Module with Bluetooth 2.0 Wireless Technology"
+BluetootUsb2045B1HpDgl.DeviceDesc=       		"HP Bluetooth Wireless Print and PC Adapter"
+BluetootUsb2045B3HpROMDgl.DeviceDesc=     		"HP Bluetooth Wireless Print and PC Adapter"
+BluetootUsb2045B1BrcmUHEROM.DeviceDesc=         "Broadcom Ultimate Low Cost Bluetooth 2.0+EDR USB Dongle"
+BluetootUsb2045B1AcerIBMSamSung.DeviceDesc =    "Broadcom 2045 Bluetooth 2.0+EDR USB Device"
+BluetootUsb2045B1DellFangorn.DeviceDesc = 		"Dell Wireless 355 Module with Bluetooth 2.0 + EDR Technology"
+BluetootUsb2045B1DellStardust.DeviceDesc =		"Dell Wireless 355C Bluetooth 2.0 + EDR module"
+BluetootUsb2045B3BrcmUHEROM.DeviceDesc=   		"Broadcom 2045 Bluetooth 2.0+EDR USB Dongle with First Connect"
+BluetootUsb2045B3BrcmNonUHEROM.DeviceDesc=		"Broadcom 2045 Bluetooth 2.0+EDR USB Dongle"
+BluetootUsb2045B3BrcmNonUHEROMChina.DeviceDesc=	"Broadcom 2045 Bluetooth 2.0 USB Dongle"
+BluetootUsb2045B1BrcmIBM.DeviceDesc =     		"ThinkPad Bluetooth with Enhanced Data Rate"
+BluetootUsb2045B1BrcmUHE.DeviceDesc=   			"Broadcom 2045 Bluetooth 2.0+EDR USB Dongle with First Connect"
+BluetootUsb2045B1BrcmNonUHE.DeviceDesc=			"Broadcom 2045 Bluetooth 2.0+EDR USB Dongle"
+BluetootUsb2045B3ROMKensington.DeviceDesc=      "Kensington Bluetooth EDR Dongle"
+BluetootUsb2046A0Sony.DeviceDesc=			    "ALPS-UGPZ9-BCM2046"
+BluetootUsb.2045B1TeacStardust.DeviceDesc=      "Teac BCM 2045 Bluetooth Device"
+BluetootUsb2046A0SonyNonUHE.DeviceDesc=			"ALPS-UGPZ9-BCM2046"
+BluetootUsb2046A0ToshibaNonUHE.DeviceDesc=		"TAIYO YUDEN Bluetooth Controller EYTFEBSAX-A"
+BluetootUsb2046B1DellLittelRock.DeviceDesc=		"Dell Wireless 370 Bluetooth Mini-card"
+BluetootUsb2046B1DellHardRock.DeviceDesc=       "Dell Wireless 410 Bluetooth Device"
+BluetootUsb2046B1DellLittleStone.DeviceDesc=    "Dell Wireless 365 Bluetooth Module"
+BluetootUsb2046B1DellBlackStone.DeviceDesc=     "Dell Wireless 367 Bluetooth Module"
+BluetootUsb2046B1ROMGeneric.DeviceDesc=         "Broadcom 2046 Bluetooth 2.1+EDR USB Dongle with First Connect"
+BluetootUsb2046B1Helike.DeviceDesc=				"ThinkPad Bluetooth 2.1 with Enhanced Data Rate"
+BluetootUsb2046B1LenovoChinaModule.DeviceDesc=  "BCM2046 Bluetooth Module"
+BluetootUsb2046B1GatewayModule.DeviceDesc=      "BCM2046 Bluetooth Module"
+BluetootUsb2046B1DellCompal.DeviceDesc=         "BCM2046 Bluetooth Device"
+BluetootUsb2070B0K2HP.DeviceDesc=               "HP Integrated Module with Bluetooth 2.1 + EDR Wireless Technology"
+
+PageScanWindow = "Page Scan Window"
+PageScanInterval = "Page Scan Interval"
+DeviceRemoteWakeSupported = "DeviceRemoteWakeSupported"
+RemoteWakeEnabled = "RemoteWakeEnabled"
